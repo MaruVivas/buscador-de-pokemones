@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.pokemones-container {
+    width: 30rem;
+    height:20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: Center;
+    align-items: center;
+}
+
+.button-link {
+    margin: 1rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #d11507;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

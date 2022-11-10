@@ -1,0 +1,25 @@
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d11507;
+    padding:  1rem 2rem;  
+}
+
+img {
+    width: 2.5rem;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    align-items: center;
+}
+
+.active {
+    color: black;
+}
+
+.unactive {
+    color: white;
+}

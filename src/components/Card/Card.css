@@ -1,0 +1,46 @@
+.card {
+    width: 20rem;
+    height: 30rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px  gray;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.card p {
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.types p:first-child {
+    margin-bottom: 0;
+}
+
+.stats span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info img {
+    width: 10rem;
+    border-radius: 50% ;
+}
+
+.stats {
+    text-align: center;
+}
